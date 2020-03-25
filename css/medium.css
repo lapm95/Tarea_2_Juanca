@@ -1,0 +1,17 @@
+.display-medium {
+    display: inherit !important;
+    list-style-type: none;
+    width: auto;
+}
+
+body {
+    font-family: Georgia;
+}
+
+ul.menu {
+    padding-left: 10px;
+}
+
+p {
+    margin-bottom: 2px;
+}

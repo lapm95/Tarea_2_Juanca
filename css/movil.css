@@ -1,0 +1,42 @@
+.display-movil {
+    display: inherit !important;
+}
+
+body {
+    font-family: Arial;
+}
+
+select.display-movil {
+    font-size: 1.2em;
+    width: 100%;
+}
+
+h1,
+h2 {
+    margin-left: .25em;
+    margin-right: .25em;
+}
+
+.menu li {
+    display: block;
+    padding: 2px;
+}
+
+ul.menu {
+    padding-left: 0px;
+}
+
+ul.menu li a {
+    display: block;
+    font-size: 1.4em;
+    font: bold;
+}
+
+p {
+    margin-left: .2em;
+}
+
+img {
+    max-width: 200%;
+    padding: 5px;
+}

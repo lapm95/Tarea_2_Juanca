@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <!-- esta meta hace que todo el diseño funcione -->
+    <meta name="viewport" content="width=device-width" ;="" initial-scale="1.0">
+    <title>Mod.3 Ejercicio P2P obligatorio</title>
+    <link href="css/colors.css" rel="stylesheet" type="text/css">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href="css/grande.css" rel="stylesheet" type="text/css" media="screen and (min-width: 981px)">
+    <link href="css/medium.css" rel="stylesheet" type="text/css" media="screen and (min-width: 481px) and (max-width: 980px)">
+    <link href="css/movil.css" rel="stylesheet" type="text/css" media="screen and (min-width: 241px) and (max-width: 480px)">
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <hgroup>
+                <h1><b>Neil Alden Armstrong</b></h1>
+                <p class="info display-grande">Pantalla mayor de 980px</p>
+                <p class="info display-medium">Pantalla entre 480 y 980 px (Tablet)</p>
+                <p class="info display-movil">Smartphone</p>
+            </hgroup>
+        </header>
+        <nav id="main-nav">
+            <p>Neil Armstrong nació el <span style="font-style: italic;">5 de
+            agosto de 1930</span> en Wapakoneta, Ohio (Estados Unidos).</p>
+            <p>Fue un astronauta de la NASA y el primer ser humano en pisar la Luna el 21 de julio de 1969, en la misión <span style="font-weight: bold;">Apolo
+            11</span>.</p>
+            <p>Murio el 25 de agosto de 2012.</p>
+            <ul class="menu">
+                <li><a title="Ir a imagenes" href="#imagenes">Imagenes</a></li>
+                <li><a title="Ir a audio" href="#audio">Audio</a></li>
+                <li><a title="Ir a video" href="#video">Video</a></li>
+                <li><a title="Ir a iFrame" href="#iFrame">iFrame</a></li>
+                <li><a title="Ir a Objeto SVG" href="#object">Objeto</a></li>
+                <li><a title="Ir a Objeto embebido" href="#embed">Objeto embebido</a></li>
+            </ul>
+        </nav>
+        <div id="wrapper">
+            <section id="main-section">
+                <article>
+                    <a id="imagenes"></a>
+                    <h3><img src="media/imagen.png" height="20" width="20">Imagenes</h3>
+                    <img title="Neil Armstrong pose" alt="Neil Armstrong pose" id="imagen" src="media/Neil_Armstrong_pose.jpg" width="45%">
+                    <img title="Huella de Armstrong en la luna" alt="Apollo 11 bootprint de NASA / Buzz Aldrin - NASA " id="imagen" src="media/477px-Apollo_11_bootprint.jpg" width="45%">
+                    <div>
+                        <br>
+                        <p>Como comandante de Apolo 11, la primera misión tripulada a la Luna con la intención de alunizar, Armstrong ganó la distinción de ser la primera persona en poner pie sobre la superficie lunar.
+                        </p>
+                        <br>
+                        <p>El 16 de julio de 1969, Armstrong, Michael Collins, y Edwin E. Aldrin comenzaron su viaje a la Luna.</p>
+                        <br>
+                        <p>El 21 de julio de 1969, Neil Armstrong pisó la Luna y pronunció su famosa frase: «Es un pequeño paso para un hombre, pero un gran salto para la humanidad»</p>
+                        <footer class="pie">Imagenes disponibles bajo la licencia Public domain vía Wikimedia Commons.</footer>
+                    </div>
+                </article>
+                <article>
+                    <a id="audio"></a>
+                    <h3><img src="media/audio.png" height="20" width="20">Audio</h3>
+                    <audio controls="controls" class="dcha"> 
+              <source type="audio/ogg" src="media/Mecano-Hijo_de_la_luna.ogg">
+              <source type="audio/mpeg" src="media/Mecano-Hijo_de_la_luna.mp3">
+              <source type="audio/midi" src="media/Mecano-Hijo_de_la_luna.mid">
+              Tu navegador no soporta la etiqueta audio. Actualizalo a su última
+              versión. </audio>
+                    <p>Hijo de la luna de Mecano.</p>
+                </article>
+                <article>
+                    <a id="video"></a>
+                    <h3><img src="media/video.png" height="20" width="20">Vídeo</h3>
+                    <video controls="controls" preload=""> 
+              <source src="media/A11v_1092338.mp4" type="video/mp4; codecs=&quot;avc1,mp4a&quot;"> 
+              <source src="media/A11v_1092338.webm" type="video/webm; codecs=&quot;vp8,vorbis&quot;">
+              </video>
+                    <p>Vídeo. Armstrong describe la superficie lunar (en inglés).</p>
+                    <p>Aldrin y Armstrong estuvieron cerca de dos horas y media caminando sobre la Luna, recogiendo muestras, haciendo experimentos y tomando fotografías. El 24 de julio de 1969, los tres hombres amerizaron en el Océano Pacífico y fueron
+                        recogidos por el portaaviones USS Hornet.</p>
+                </article>
+                <article>
+                    <a id="iFrame"></a>
+                    <h3><img src="media/iframe.png" height="20" width="20">iFrame</h3>
+                    <iframe width="450" height="315" src="https://www.youtube.com/embed/z-N3-2YTawI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    <p>Video iFrame.</p>
+                    <p>Además de desplegar la bandera de Estados Unidos y de instalar diversos aparatos científicos, recogieron aproximadamente 22 kg de rocas lunares para su posterior estudio en la Tierra.</p>
+                </article>
+                <article>
+                    <a id="object"></a>
+                    <h3><img src="media/objeto.png" height="20" width="20">Objeto</h3>
+                    <!-- <object type="image/svg+xml" width="50%" data="media/Earths_Moon.svg"></object>
+            <p>Imagen de la luna (objeto SVG)</p> -->
+                    <a title="By Gregors (Own work) [CC0], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3AEarths_Moon.svg"><img width="25%" alt="Earths Moon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Earths_Moon.svg/256px-Earths_Moon.svg.png"/></a>
+                    <p class="display-grande display-medium">Objeto SVG enlace externo.</p>
+                </article>
+                <article>
+                    <a id="embed"></a>
+                    <h3><img src="media/embed.png" height="20" width="20">Objeto Embebido</h3>
+                    <p>Mapa Centros e istalaciones de la NASA</p>
+                    <iframe src="https://mapsengine.google.com/map/embed?mid=zm2m8isrMSTE.kNEmbsL6VuWU" width="90%" height="480"></iframe>
+                </article>
+            </section>
+        </div>
+
+        <footer>
+            <p>El típico pie que nadie lee.</p>
+            <div class="info">
+                <p>Esta pagina esta realizada con la intención de aplicar lo pedido en el Ejercicio P2P obligatorio del Tema 3</p>
+                <p>Como principiante he intentado aplicar lo aprendido hasta ahora</p>
+            </div>
+        </footer>
+    </div>
+</body>
+<!--
+  Modulo 3. Estructuración, visualización y depuración con Firefox de HTML5 y CSS3 adaptados a un entorno responsivo y multi-pantalla, para adaptación a móviles y tabletas
+  
+  Explicación de la tarea
+
+  Realizar una página personal propia que incluya al menos:
+
+  - Nombre, foto del autor y un breve curriculum textual, acompañado de un video corto que resuma el curriculum.
+  - Una galería de recursos favoritos del autor.
+
+  La galería puede incluir fotos, videos, audios, animaciones, páginas Web, ….
+
+  - Debe contener al menos 6 recursos diferentes.
+  - Utilizará al menos 4 marcas diferentes de entre: <img>, <audio>, <video>, <object>, <iframe>, <embed>.
+
+  - Recomendación: grabar el video utilizando un móvil o tableta.
+
+  - Convertir a WebM o MP4 con alguna de las múltiples herramientas de conversión existentes que se pueden encontrar con Google o en las tiendas de programas. Una vez convertido hay que subir el video a Google Drive.
+
+  - El video se puede subir también a Youtube. Youtube lo convierte a un formato HTML5 al subirlo. Google proporciona el código de inserción, normalmente un <iframe> (o <embed>).
+
+  - Recomendación: buscar imágenes SVG (y PNG) en wikimedia commons.
+
+  - En wikimedia (http://commons.wikimedia.org/wiki/Category:SVG) hay muchas imágenes SVG, que también se pueden transformar a una resolución fija en PNG. Estas pueden descargarse y subirse a Google Drive o incluir directamente a través del URL que suministra wikimedia.
+
+  Utilizar un estilo adaptado correctamente a distintos tamaños de pantalla.
+  -->
+
+</html>

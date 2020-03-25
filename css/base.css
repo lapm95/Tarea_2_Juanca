@@ -1,0 +1,93 @@
+.display-grande {
+    display: none;
+}
+
+.display-medium {
+    display: none;
+}
+
+.display-movil {
+    display: none;
+}
+
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+    -ms-overflow-y: scroll;
+}
+
+body {
+    font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+ul.menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+ul.menu li a {
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    outline-width: 0px;
+    outline-style: none;
+    outline-color: initial;
+    -moz-outline-color: initial;
+    -webkit-outline-color: initial;
+}
+
+img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.info {
+    font-variant: small-caps;
+    font-size: small;
+}
+
+.pie {
+    font-size: small;
+}

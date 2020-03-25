@@ -1,0 +1,44 @@
+body {
+    color: #000;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+    color: #008080;
+}
+
+header {
+    background-color: #9393FF;
+}
+
+nav {
+    background-color: #EFE8DA;
+}
+
+#main-nav {
+    border: 1px solid #2A1F1F;
+}
+
+article {
+    background-color: #E6E6E6;
+}
+
+ul.menu li a {
+    border: 1px solid #666;
+    background: #CCF;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+.pie {
+    background-color: #CCCCFF;
+}
+
+footer {
+    background-color: #5252AB;
+}
